@@ -1,0 +1,8 @@
+# Token the Pebble app sends in its Authorization header (pick any long random string)
+PEBBLE_AUTH_TOKEN=""
+
+# Full URL of your Hermes webhook route, e.g. https://mini.tailXXXX.ts.net/webhooks/pebble
+HERMES_URL=""
+
+# HMAC secret matching the `secret` field on the Hermes route in config.yaml
+HERMES_WEBHOOK_SECRET=""
